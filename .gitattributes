@@ -1,0 +1,4 @@
+datasets/ filter=lfs diff=lfs merge=lfs -text
+inference filter=lfs diff=lfs merge=lfs -text
+model/cg_300_integrated_training_integrin_dmap_decoder_main.ipynb filter=lfs diff=lfs merge=lfs -text
+datasets/evecs_evals_integrin_aa_cg_300.pkl filter=lfs diff=lfs merge=lfs -text

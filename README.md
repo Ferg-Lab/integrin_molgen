@@ -32,7 +32,7 @@ Overview
 
 1. [datasets](./datasets): Contains all-atom (~1770 residues) to 300 bead coarse-grained mapping of $\alpha_{IIb}-\beta_{3}$ integrin in each metastable state and learning of the unified low-dimensional embedding of the gross structure relations between and within metastable states using density-adaptive dMaps. Please see [datasets/README.md](./datasets/README.md) for getting started.
 2. [model](./model): Trained cWGAN model to generate 300 bead coarse-grained structures of integrin using 4D latent space (leading four non-trivial dMap coordinates) as the conditional input. Please see [model/README.md](./model/README.md) for further details.
-3. [inference](./inference): Access to notebooks to generate intermediate structure at latent space points corresponding to training samples and intermediate regions between metastable states for which no training samples are available. All-atom intermediate structures in PDB format between metastable states that are generated via targeted MD simulations  are also available. Please see [inference/README.md](./inference/README.md).
+3. [inference](./inference): Access to notebooks to generate intermediate structure at latent space points corresponding to training samples and intermediate regions between metastable states for which no training samples are available. All-atom intermediate structures in PDB format between metastable states that are generated via targeted MD simulations are also available along with template GROMACS and PLUMED files. Please see [inference/README.md](./inference/README.md).
    
 ---
 

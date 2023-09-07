@@ -9,16 +9,14 @@ Installation
 
 `INSTALL_LOCATION=<set path here for installation of conda env>`
 
-`conda env create -f environment.yml --prefix $INSTALL_LOCATION` 
+`conda env create -f integrin_environment.yml --prefix $INSTALL_LOCATION` 
 
 Note: [git lfs](https://git-lfs.com) is used for storing files in this repository. To download the intermediate all-atom PDB files, it may be to better simply download the entire repository using `download zip` link under `Code` option if `git lfs clone` or `git clone` doesn't work because of file size restrictions.
 
----
+Required codes
 
-Main codes
-
-- [https://github.com/Ferg-Lab/dMap_JAX](https://github.com/Ferg-Lab/dMap_JAX) is used for performing root mean square deviation (RMSD) calculations and to obtain diffusion maps (dMap). Both RMSD and dMap calculations are accelerated via [JAX](https://github.com/google/jax) library.
-- DGM using cWGAN is performed using [https://github.com/Ferg-Lab/molgen.git](https://github.com/Ferg-Lab/molgen.git). 
+- [https://github.com/Ferg-Lab/dMap_JAX](https://github.com/Ferg-Lab/dMap_JAX) is used for performing root mean square deviation (RMSD) calculations and to obtain diffusion maps (dMap). Both RMSD and dMap calculations are accelerated via [JAX](https://github.com/google/jax) library. Follow installation instructions on [https://github.com/Ferg-Lab/dMap_JAX/README.md](https://github.com/Ferg-Lab/dMap_JAX/README.md)
+- DGM using cWGAN is performed using [https://github.com/Ferg-Lab/molgen.git](https://github.com/Ferg-Lab/molgen.git). Follow installation instructions on [https://github.com/Ferg-Lab/molgen.git/README.md]([https://github.com/Ferg-Lab/molgen.git/README.md). 
 
 <!--
 <p align="center">

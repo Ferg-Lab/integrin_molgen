@@ -1,0 +1,12 @@
+RESTART
+rmsd_a: RMSD REFERENCE=target_cg_resmapped_4_int1_box_proa.pdb TYPE=OPTIMAL #NOPBC
+rmsd_b: RMSD REFERENCE=target_cg_resmapped_4_int1_box_prob.pdb TYPE=OPTIMAL
+rmsd: RMSD REFERENCE=target_cg_resmapped_4_int1_box.pdb TYPE=OPTIMAL
+
+PRINT STRIDE=10 ARG=rmsd,rmsd_a FILE=init_rmsd_a_results.dat
+
+PRINT STRIDE=10 ARG=rmsd,rmsd_b FILE=init_rmsd_b_results.dat
+
+
+
+

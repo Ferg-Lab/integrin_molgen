@@ -1,0 +1,28 @@
+RESTART
+rmsd_a: RMSD REFERENCE=target_cg_resmapped_6_int1_box_proa.pdb TYPE=OPTIMAL #NOPBC
+rmsd_b: RMSD REFERENCE=target_cg_resmapped_6_int1_box_prob.pdb TYPE=OPTIMAL
+rmsd: RMSD REFERENCE=target_cg_resmapped_6_int1_box.pdb TYPE=OPTIMAL
+
+restraint_a: ...
+MOVINGRESTRAINT
+ARG=rmsd_a
+AT0=1.247275 STEP0=0 KAPPA0=0
+AT1=0 STEP1=500000 KAPPA1=2000
+AT2=0 STEP2=1250000
+...
+
+restraint_b: ...
+MOVINGRESTRAINT
+ARG=rmsd_b
+AT0=1.918104 STEP0=0 KAPPA0=0
+AT1=0 STEP1=500000 KAPPA1=2000
+AT2=0 STEP2=1250000
+...
+
+PRINT STRIDE=10 ARG=rmsd,rmsd_a,restraint_a.bias,restraint_a.work,restraint_a.force2,restraint_a.rmsd_a_kappa,restraint_a.rmsd_a_cntr FILE=rmsd_a_results.dat
+
+PRINT STRIDE=10 ARG=rmsd,rmsd_b,restraint_b.bias,restraint_b.work,restraint_b.force2,restraint_b.rmsd_b_kappa,restraint_b.rmsd_b_cntr FILE=rmsd_b_results.dat
+
+
+
+

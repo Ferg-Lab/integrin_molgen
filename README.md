@@ -11,7 +11,7 @@ Installation
 
 `conda env create -f environment.yml --prefix $INSTALL_LOCATION` 
 
-Note: [git lfs](https://git-lfs.com) is used for storing files in this repository. To download the intermediate all-atom PDB files, it may be better simply download the entire repository `download zip` link under `Code` option if `git lfs clone` or `git clone` doesn't work because of file size restrictions.
+Note: [git lfs](https://git-lfs.com) is used for storing files in this repository. To download the intermediate all-atom PDB files, it may be to better simply download the entire repository using `download zip` link under `Code` option if `git lfs clone` or `git clone` doesn't work because of file size restrictions.
 
 ---
 

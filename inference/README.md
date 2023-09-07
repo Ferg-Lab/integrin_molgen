@@ -17,4 +17,8 @@ Notebooks
 
 [cg_300_integrated_training_integrin_dmap_decoder-generatePoints.ipynb](./cg_300_integrated_training_integrin_dmap_decoder-generatePoints.ipynb):  Notebook to generate 300 bead CG configurations at any given latent space point. In this notebook, the configurations are generated to generate potential structures along switchblade and deadbolt mechanism.
 
+GROMACS + PLUMED FILES
+
+[master_tmsd](./master_tmd) contains template GROMACS mdp and PLUMED files used for setting up the targetted MD simulations. Scripts to launch the simulations are [prep-sub.sh](prep-sub.sh) and [sub.sh](sub.sh). Force field and initial all atom reference gro files are located in [all-atom](all-atom) folder.
+
 

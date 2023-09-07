@@ -15,8 +15,8 @@ Note: [git lfs](https://git-lfs.com) is used for storing files in this repositor
 
 Required codes
 
-- [https://github.com/Ferg-Lab/dMap_JAX](https://github.com/Ferg-Lab/dMap_JAX) is used for performing root mean square deviation (RMSD) calculations and to obtain diffusion maps (dMap). Both RMSD and dMap calculations are accelerated via [JAX](https://github.com/google/jax) library. Follow installation instructions on [https://github.com/Ferg-Lab/dMap_JAX/README.md](https://github.com/Ferg-Lab/dMap_JAX/README.md)
-- DGM using cWGAN is performed using [https://github.com/Ferg-Lab/molgen.git](https://github.com/Ferg-Lab/molgen.git). Follow installation instructions on [https://github.com/Ferg-Lab/molgen.git/README.md]([https://github.com/Ferg-Lab/molgen.git/README.md). 
+- [https://github.com/Ferg-Lab/dMap_JAX](https://github.com/Ferg-Lab/dMap_JAX) is used for performing root mean square deviation (RMSD) calculations and to obtain diffusion maps (dMap). Both RMSD and dMap calculations are accelerated via [JAX](https://github.com/google/jax) library. Follow installation instructions on [dMap_JAX/README.md](https://github.com/Ferg-Lab/dMap_JAX/blob/main/README.md).
+- DGM using cWGAN is performed using [https://github.com/Ferg-Lab/molgen.git](https://github.com/Ferg-Lab/molgen.git). Follow installation instructions on [molgen/README.md](https://github.com/Ferg-Lab/molgen/blob/main/README.md). 
 
 <!--
 <p align="center">

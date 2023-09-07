@@ -29,6 +29,7 @@ mv temp2.dat targetmd_plumed.dat
 rm -f temp.dat temp2.dat
 
 # NOTE: equil-int1-7.gro can be obtained from https://github.com/tamarabidone/multiscale-model-alphaIIbBeta3.
+# Also see all-atom directory.
 echo "gmx grompp -f run.mdp -c ../../all-atom/intermediate1_ff/equil/equil-int1-7.gro -p ../../all-atom/intermediate1_ff/topol.top -po run-out.mdp -o run.tpr" >> taac-run.sbatch
 echo -e "\n" >> taac-run.sbatch
 echo "gmx mdrun -s run.tpr -deffnm run-tmd -plumed targetmd_plumed.dat" >> taac-run.sbatch 

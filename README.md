@@ -42,7 +42,7 @@ S. Dasetty, T. C. Bidone, G. A. Voth, and A. L. Ferguson. "Hallucination of inte
 
 ```
 @article{ferglab2023PFAS,
-  title={Hallucination of integrin activation pathways using nonlinear manifold learning and deep generative modeling},
+  title={Data-driven prediction of $\alpha_{IIb}-\beta_{3}$ integrin heterodimer activation pathways using nonlinear manifold learning and deep generative modeling,
   author={Dasetty, S. and Bidone, T.C. and Voth, G.A. and Ferguson, A.L.},
   journal={XXXX},
   volume={XXXX},

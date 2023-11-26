@@ -1,4 +1,5 @@
-Hallucination of integrin activation pathways using nonlinear manifold learning and deep generative modeling
+
+Data-driven prediction of $\alpha_{IIb}\beta_{3}$ integrin activation pathways using nonlinear manifold learning and deep generative modeling
 ---
 
 This repository demonstrates a general and transferrable approach to predict intermediate transition structures between known metastable states of large multi-molecular systems that are difficult to obtain using conventional techniques. The method comprises nonlinear manifold learning and deep generative modeling (DGM) methods to learn the forward mapping from high dimension (3D molecular structure) to low dimension (latent space) and a generative inverse mapping from low dimension (latent space) to high dimension (3D molecular structure), respectively. Density adaptive-diffusion maps and conditional Wasserstein generative adversarial networks (cWGAN) are used for nonlinear manifold learning and DGM, respectively. We use the prototypical and a major platelet integrin $\alpha_{IIb}-\beta_{3}$, a large transmembrane heterodimer protein to demonstrate the method. The generated structures enable potential understanding of the integrin activation mechanism and serve as potential seeds for additional calculations (e.g., string method) to map the free energy landscape. 
@@ -38,12 +39,12 @@ Cite
 
 If you use the codes or notebooks from this repo in your work, please cite:
 
-S. Dasetty, T. C. Bidone, G. A. Voth, and A. L. Ferguson. "Hallucination of integrin activation pathways using nonlinear manifold learning and deep generative modeling" XXXXX. DOI: XXXX
+S. Dasetty, T. C. Bidone, and A. L. Ferguson. "Data-driven prediction of $\alpha_{IIb}\beta_{3}$ integrin activation pathways using nonlinear manifold learning and deep generative modeling" Biophys J. (submitted). DOI: XXXX
 
 ```
-@article{ferglab2023PFAS,
+@article{ferglab2023Integrin,
   title={Data-driven prediction of $\alpha_{IIb}-\beta_{3}$ integrin heterodimer activation pathways using nonlinear manifold learning and deep generative modeling,
-  author={Dasetty, S. and Bidone, T.C. and Voth, G.A. and Ferguson, A.L.},
+  author={Dasetty, S. and Bidone, T.C. and Ferguson, A.L.},
   journal={XXXX},
   volume={XXXX},
   number={XXXX},
